@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 40px auto;
+    background-color: rgb(255, 230, 2);
+    height: 320px;
+    width: 250px;
+    border-radius: 10px;
+}
+#input{
+    width: 250px;
+    height: 40px;
+    /* border-radius: 20px 20px 0px 0px; */
+     background-color: white;
+     color: black;
+     border: 1px solid black;
+     padding:0px 5px;
+     margin-bottom: 10px;
+}
+.btn{
+    height: 55px;
+    width: 55px;
+    margin: 2px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
