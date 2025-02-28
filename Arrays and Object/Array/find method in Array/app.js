@@ -31,3 +31,9 @@ const employees = [
 
   console.log(employeesfind);
   
+
+//   delete is also use in array for deleting something
+  delete employees[2]
+
+  console.log(employees);
+  
