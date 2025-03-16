@@ -25,11 +25,9 @@ console.log(obj3);
 
 var arr=[1,2,3,4,5,6,7,8,9,10]
 
-var[one,two,three,four,five]=arr
+var newarr=[...arr]
 
-console.log(one);
-console.log(two);
-console.log(three);
+console.log(newarr);
 
 
 
