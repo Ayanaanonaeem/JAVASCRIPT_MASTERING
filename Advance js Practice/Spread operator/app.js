@@ -29,6 +29,10 @@ var newarr=[...arr]
 
 console.log(newarr);
 
+array.forEach(element => {
+    
+});
+
 
 
 

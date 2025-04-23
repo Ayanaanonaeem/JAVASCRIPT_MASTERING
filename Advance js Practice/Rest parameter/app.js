@@ -15,6 +15,7 @@ let{name,father_name ,...hello}=obj
 
 console.log(hello);
 console.log(father_name);
+console.log(hello);
 
 
 // hum three dot laga kr kuch bhi name desakte hai to ye bachi huwi values and prperty le ayega
