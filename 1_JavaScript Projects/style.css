@@ -1,0 +1,77 @@
+main{
+    display: flex;
+    width: 100%;
+    height: 679px;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+  
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 2s;
+   
+    box-shadow: 10px 10px 15px black;
+    animation-name: ayan;
+    animation-duration: 8s;
+    position: relative;
+   
+    
+}
+.hello{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 2s;
+   
+    box-shadow: 10px 10px 15px black;
+    animation-name: ayan;
+    animation-duration: 8s;
+    position: relative;
+   
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 2s;
+   
+    box-shadow: 10px 10px 15px black;
+    animation-name: ayan;
+    animation-duration: 8s;
+    position:relative;
+   
+}
+.box:hover{
+    
+    
+   
+}
+@keyframes ayan {
+    0%{
+        left: 0px;
+       
+    }
+    
+    25%{
+    left: 90%;
+    transform: rotate(720deg);   
+   
+    }
+    /* 50%{
+    left: 45%;
+    transform: rotate(360deg);   
+    top: 0px;
+    } */
+    100%{
+    left: 0%;
+    transform: rotate(360deg);   
+   
+    }
+}
