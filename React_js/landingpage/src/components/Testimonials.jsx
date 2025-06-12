@@ -1,7 +1,7 @@
 
 
 export default function Testimonials({testimonials}) {
-    console.log(testimonials);
+   
     
   return (
     <div>

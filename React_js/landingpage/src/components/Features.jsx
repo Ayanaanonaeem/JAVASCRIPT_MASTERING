@@ -2,7 +2,7 @@
 
 
 export default function Features({features}) {
-     console.log(features);
+    
   return (
     <div>
       <section className="text-gray-600 body-font">
